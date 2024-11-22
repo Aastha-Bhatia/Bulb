@@ -3,9 +3,9 @@ This is a simple web project created to understand how to manipulate the DOM (Do
 
 ## Screenshots
 Light Off
-![Bulb On](screenshots/bulb_off)
+![Bulb On](bulb_off.png)
 Light On
-![Bulb Off](screenshots/bulb_on)
+![Bulb Off](bulb_on.png)
 
 ## Features
 - **DOM Manipulation**: Demonstrates basic DOM manipulation where images change based on user interaction.
