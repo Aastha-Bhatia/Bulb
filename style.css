@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    background: linear-gradient(to right, #A8E6CF, #DCEDC1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    overflow: hidden;
+}
+.bulbbox{
+    width: 80%;
+    max-width: 450px;
+    height: 80%;
+    max-height: 450px;
+    background-color: white; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px; 
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4); 
+    overflow: hidden;
+}
+.bulb-container img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.btn button{
+    all:unset;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn button img{
+    width: 15%;
+    height: auto;
+}
+
+@media (max-width: 600px){
+    .bulbbox{
+        width: 90%;
+        max-width: 400px; 
+        height: 80%;
+    }
+    .btn button img {
+        width: 20%; 
+    }
+}
+@media (orientation: landscape) {
+    .bulbbox {
+        width: 70%; 
+        height: 70%; 
+    }
+}
