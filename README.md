@@ -2,9 +2,9 @@
 This is a simple web project created to understand how to manipulate the DOM (Document Object Model) using JavaScript. The project features a light bulb image that can be toggled between "on" and "off" states by clicking a button, mimicking a real-world light bulb's functionality.
 
 ## Screenshots
-Light Off
+## Light Off
 ![Bulb On](bulb_off.png)
-Light On
+## Light On
 ![Bulb Off](bulb_on.png)
 
 ## Features
