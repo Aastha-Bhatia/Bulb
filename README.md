@@ -20,7 +20,8 @@ This is a simple web project created to understand how to manipulate the DOM (Do
 ## How to Use
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/Aastha-Bhatia/bulb-toggle.git
+   git clone https://github.com/Aastha-Bhatia/Bulb.git
+   
 ## Notes
 This is a simple project designed to understand DOM manipulation and basic interactivity in JavaScript.
 The project is fully functional, but responsiveness for screen rotation needs further fine-tuning (which will be addressed later).
