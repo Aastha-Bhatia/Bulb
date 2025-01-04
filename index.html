@@ -8,10 +8,10 @@
 <body>
     <div class="bulbbox">
         <div class="bulb-container">
-            <img id="bulb" src="images/off.jpg" alt="off-bulb">
+            <img id="bulb" src="off.jpg" alt="off-bulb">
         </div>
         <div class="btn">
-            <button id="on-offbutton" onclick="togglebulb()"><img src="images/onbtn.jpg" id="toggle" alt=""></button>
+            <button id="on-offbutton" onclick="togglebulb()"><img src="onbtn.jpg" id="toggle" alt=""></button>
         </div>
     </div>
     <script>
@@ -20,14 +20,14 @@
             // bulb on
             // we will change the value of src of image using set attribute
             let imageOb=document.getElementById("bulb");
-            imageOb.setAttribute("src","images/on.jpg");
+            imageOb.setAttribute("src","on.jpg");
         };
         //turn off
         const turnOff=()=>{
             // bulb on
             // we will change the value of src of image using set attribute
             let imageOb=document.getElementById("bulb");
-            imageOb.setAttribute("src","images/off.jpg");
+            imageOb.setAttribute("src","off.jpg");
         };
         const togglebulb=()=>{
             let buttonOb=document.getElementById("on-offbutton");
@@ -37,13 +37,13 @@
 
             let imageOb=document.getElementById("bulb");
             let srcValue=imageOb.getAttribute("src");
-            if(srcValue=="images/on.jpg"){
+            if(srcValue=="on.jpg"){
                 turnOff();
-                togglebtn.setAttribute("src","images/onbtn.jpg");
+                togglebtn.setAttribute("src","onbtn.jpg");
             }
             else{
                 turnOn();
-                togglebtn.setAttribute("src","images/offbtn.jpg");
+                togglebtn.setAttribute("src","offbtn.jpg");
             }
         };
     </script>
